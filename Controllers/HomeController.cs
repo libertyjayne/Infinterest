@@ -23,21 +23,22 @@ namespace Infinterest.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Registration()
         {
-            ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Dashboard()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Messaging()
+        {
+            return View();
+        }
+
+        public IActionResult Profile()
         {
             return View();
         }
