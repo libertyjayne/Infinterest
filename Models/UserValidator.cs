@@ -9,17 +9,29 @@ namespace Infinterest.Models
    public class UserValidator
     {   
         [DataType(DataType.Text)]
+        [Required(ErrorMessage = "A type is required")]
+        public string UserType {get; set;}
+
+        [DataType(DataType.Text)]
         [Display(Name = "First Name:")]
         [RegularExpression("^([a-zA-Z ]*)$"), StringLength(45, MinimumLength = 2)]
         [Required(ErrorMessage = "Your first name is required")]
         public string FirstName { get; set; }
-        
+
         [DataType(DataType.Text)]
         [Display(Name = "Last Name:")]
         [Required(ErrorMessage = "Your last name is required")]
         [MinLength(2, ErrorMessage = "Your last name has to be at least 2 letters")]
         [RegularExpression("^[a-zA-Z ]*$", ErrorMessage = "Your last name must consist of letters only")]
         public string LastName { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Contact Name:")]
+        public string Contact { get; set; }
+
+        [DataType(DataType.Text)]
+        [Display(Name = "Your bio:")]
+        public string Bio { get; set; }
 
         [DataType(DataType.EmailAddress)]
         [Display(Name = "Email:")]

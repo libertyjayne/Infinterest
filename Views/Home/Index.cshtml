@@ -3,5 +3,17 @@
 }
 
 <div id="homecontainer">
-    
+    <form action="/existing-user" method="post">
+    <h3 class="mt-3">Login</h3><br>   
+
+        <p class="errors">@ViewBag.Error</p>
+        
+        <label for="EmailLogin">Email: </label>
+        <input id="EmailLogin" type="text" name="EmailLogin"><br><br>
+            
+        <label for="PasswordLogin">Password: </label>
+        <input id="PasswordLogin" type="password" name="PasswordLogin"><br><br>
+                
+        <button class="checkout btn" type="submit">Login</button>  
+    </form>
 </div>

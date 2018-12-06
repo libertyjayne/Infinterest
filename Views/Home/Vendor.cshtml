@@ -1,0 +1,28 @@
+﻿@model Vendor
+@{
+    ViewData["Title"] = "Infinterest Vendor Registration";
+}
+
+<div class="container"> 
+    <form class="form-group" asp-action="NewVendor" asp-controller="Home" method="post">
+        <h1>Vendor Registration</h1>
+       
+        <p><span class="errors" asp-validation-for="Company"></span></p>
+        <label asp-for="Company">Company:</label>
+        <input asp-for="Company" class="form-control"><br><br>
+
+        <p><span class="errors" asp-validation-for="AreaOfHouse"></span></p>
+        <label asp-for="AreaOfHouse">Area:</label>
+        <input asp-for="AreaOfHouse" class="form-control"><br><br>
+       
+        <p><span class="errors" asp-validation-for="BusinessCategory"></span></p>
+        <label asp-for="BusinessCategory">Business Category:</label>
+        <input asp-for="BusinessCategory" class="form-control"><br><br>
+
+        <button class="checkout btn" type="submit">Complete Registration</button> 
+    
+    </form><br><br>
+
+    <p class="errors">@ViewBag.ErrorReg</p>
+
+</div>
