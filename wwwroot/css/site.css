@@ -1,14 +1,17 @@
-﻿body, html, .container{
-    height: 100%;
-}
-.form-group{
-    width: 50%;
-}
-
-
-*{
+﻿*{
     font-family: Verdana, Geneva, sans-serif;
 }
+body, html, .container{
+    height: 100%;
+}
+/* Registration pages */
+.form-group{
+    width: 30%;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: auto;
+
+
 
 /* Home/Login Page */
 

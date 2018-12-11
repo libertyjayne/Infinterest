@@ -1,50 +1,55 @@
-﻿@model UserValidator
+﻿<!-- model UserValidator -->
 @{
     ViewData["Title"] = "Infinterest Registration";
 }
 
 <div class="container"> 
-    <form class="form-group" asp-action="NewUser" asp-controller="Home" method="post">
+    
+    <!-- <form class="form-group" asp-action="NewUser" asp-controller="Home" method="post"> -->
+    
         <h1>Register</h1>
 
-        <p><span class="errors" asp-validation-for="UserType"></span></p>
-        <label for="UserType">Are you a vendor or broker?</label>
-        <select class="form-control" asp-for="UserType">
-            <option>Vendor</option>
-            <option>Broker</option>
-        </select><br><br>
+        <h3>Are you a <a href="vendor">vendor</a>, <a href="broker">broker</a>, <a href="buyer">buyer</a>, or <a href="buyer">seller</a>?
 
-        <p><span class="errors" asp-validation-for="FirstName"></span></p>
-        <label asp-for="FirstName"></label>
-        <input class="form-control" asp-for="FirstName"><br><br>
-            
-        <p><span class="errors" asp-validation-for="LastName"></span></p>
-        <label asp-for="LastName"></label>
-        <input class="form-control" asp-for="LastName"><br><br>
+        </h3>
+
         <!-- Need to style/copy from other file class errors -->
+        <!-- <p><span class="errors" asp-validation-for="UserType"></span></p> -->
+        
+            <!-- <label for="UserType">Are you a vendor, broker, buyer, or seller?</label> -->
+            <!-- <select class="form-control" asp-for="UserType"> -->
+            <!-- <select id="UserType" class="form-control">
+                <option>Vendor</option>
+                <option>Broker</option>
+                <option>Buyer</option>
+                <option>Seller</option>
+            </select><br><br>
+         -->
 
-        <p><span class="errors" asp-validation-for="Contact"></span></p>
-        <label asp-for="Contact"></label>
-        <input class="form-control" asp-for="Contact"><br><br>
-
-        <p><span class="errors" asp-validation-for="Bio"></span></p>
-        <label asp-for="Bio"></label>
-        <input class="form-control" asp-for="Bio"><br><br>
-
-        <p><span class="errors" asp-validation-for="Email"></span></p>
+        <!-- <p><span class="errors" asp-validation-for="FirstName"></span></p>
+        <label asp-for="FirstName"></label>
+        <input class="form-control" asp-for="FirstName"><br><br> -->
+        
+            
+        <!-- <p><span class="errors" asp-validation-for="LastName"></span></p>
+        <label asp-for="LastName"></label>
+        <input class="form-control" asp-for="LastName"><br><br> -->
+        
+        <!-- <p><span class="errors" asp-validation-for="Email"></span></p>
         <label asp-for="Email"></label>
-        <input class="form-control" asp-for="Email">
-        <small id="" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        <br><br>
+        <input class="form-control" asp-for="Email"> -->
+        <!-- <small id="Email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <br><br> -->
 
-        <p><span class="errors" asp-validation-for="Password"></span></p>
+        <!-- <p><span class="errors" asp-validation-for="Password"></span></p>
         <label asp-for="Password"></label>
-        <input asp-for="Password" class="form-control"><br><br>
+        <input asp-for="Password" class="form-control"><br><br> -->
+       
 
-        <p><span class="errors" asp-validation-for="PasswordConfirm"></span></p>
+        <!-- <p><span class="errors" asp-validation-for="PasswordConfirm"></span></p>
         <label asp-for="PasswordConfirm"></label>
-        <input asp-for="PasswordConfirm" class="form-control"><br><br>
-        <button class="checkout btn" type="submit">Register</button> 
+        <input asp-for="PasswordConfirm" class="form-control"><br><br> -->
+        
+        <!-- <button class="checkout btn" type="submit">Register</button>  -->
 
-    </form>
 </div>
