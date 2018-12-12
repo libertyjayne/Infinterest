@@ -64,7 +64,7 @@ namespace Infinterest.Controllers
         //     }
         // }
 
-         //POST Register user  
+        //POST Register user  
         // [HttpPost("new-user")]
         // public IActionResult NewUser(UserValidator User)
         // {   
@@ -113,8 +113,7 @@ namespace Infinterest.Controllers
         //         return View("Registration");
         //     }
         // }
-       
-              
+
         //POST Login user
         // [HttpPost("existing-user")]
         // public IActionResult ExistingUser(string PasswordLogin, string EmailLogin)
@@ -148,7 +147,7 @@ namespace Infinterest.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Index");
         }  
-              
+
         [HttpGet("dashboard")]
         public IActionResult Dashboard()
         {
@@ -166,6 +165,11 @@ namespace Infinterest.Controllers
             return View();
         }
 
+        [Route("add-listings")]
+        public IActionResult AddeEvents()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
