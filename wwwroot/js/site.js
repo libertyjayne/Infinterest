@@ -2,6 +2,14 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+$(document).ready(function(){
+    $(".fa-chevron-down").on('click', function (event) {
+        $('html, body').animate({
+            scrollTop: 725
+        }, 'slow');
+    });
+});
+
 var otherCheckbox = document.querySelector('input[value="other"]');
 var otherText = document.querySelector('input[id="otherValue"]');
 otherText.style.visibility = 'hidden';
@@ -15,10 +23,3 @@ otherCheckbox.onchange = function() {
   }
 };
 
-$(document).ready(function(){
-    $(".fa-chevron-down").on('click', function (event) {
-        $('html, body').animate({
-            scrollTop: 725
-        }, 'slow');
-    });
-});
