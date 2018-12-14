@@ -3,11 +3,25 @@
 
 // Write your JavaScript code.
 $(document).ready(function(){
-    $(".fa-chevron-down").on('click', function (event) {
-        $('html, body').animate({
-            scrollTop: 725
-        }, 'slow');
+  $(".fa-chevron-down").on('click', function (event) {
+      $('html, body').animate({
+          scrollTop: 725
+      }, 'slow');
+  });
+  $(".login").click(function(){
+    $(".loginbox").animate({
+    left: "-=20%"
+  }, 1000, function() {
+    
     });
+  });
+  $(".fa-times-circle").click(function(){
+    $(".loginbox").animate({
+    left: "+=20%"
+  }, 1000, function() {
+    
+    });
+  });
 });
 
 var otherCheckbox = document.querySelector('input[value="other"]');
