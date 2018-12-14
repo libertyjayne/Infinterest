@@ -1,16 +1,36 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div id="homecontainer">
-    <img src="../images/infinterestlogo.png" alt="logo" class="logo">
-    <div id="searcharea">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control">
-          <div class="input-group-append">
-            <button class="btn btn-outline-secondary btn-info" type="button">Search</button>
-          </div>
+    <div id="homecontainer">
+        <nav>
+            <a href="#"><img src="../images/infinterestlogo.png" alt="logo" class="logo"></a>
+            <div class="navlinks">
+                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Sign up</a>
+                <a class="nav-link" href="#">Log in</a>
+            </div>
+        </nav>
+        <div class="searchbox">
+            <h4>Search Upcoming Open House Events.</h4>
+            <form>
+                <div class="form-group whereinput">
+                  <label for="zipcode">Where</label>
+                  <input type="text" class="form-control"placeholder="Zip Code">
+                </div>
+                <div class="form-group">
+                <label for="zipcode" class="when">When</label>
+                  <input type="date" class="form-control daterange" placeholder="Start Date">
+                    <label>to</label>
+                  <input type="date" class="form-control daterange" placeholder="End Date">
+                </div>
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
         </div>
+        <div class="carrot">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+    <div id="secondarycontainer">
         <div class="result">
             <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" class="respic">
             <div class="resinfo">
@@ -42,13 +62,3 @@
             </div>
         </div>
     </div>
-    <div id="loginarea">
-        <form action="/existing-user" method="post">
-            <input id="EmailLogin" name="EmailLogin" type="text" class="form-control inputs" placeholder="email">
-            <input id="PasswordLogin" name="PasswordLogin" type="password" class="form-control inputs" placeholder="password">
-            <button class="btn btn-info login" type="submit">Login</button>
-            <button class="btn btn-info signup">Sign Up</button>
-            <p class="errors">@ViewBag.Error</p>
-        </form>
-    </div>
-</div>

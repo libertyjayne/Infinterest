@@ -14,3 +14,11 @@ otherCheckbox.onchange = function() {
     otherText.style.visibility = 'hidden';
   }
 };
+
+$(document).ready(function(){
+    $(".fa-chevron-down").on('click', function (event) {
+        $('html, body').animate({
+            scrollTop: 725
+        }, 'slow');
+    });
+});
