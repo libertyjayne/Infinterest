@@ -31,6 +31,16 @@ namespace Infinterest.Controllers
             ViewBag.ErrorReg = TempData["ErrorReg"];
             return View("Index");
         }
+        [HttpGet("vendor-registration")]
+        public IActionResult VendorRegistration()
+        {
+            return View();
+        }
+        [HttpGet("broker-registration")]
+        public IActionResult BrokerRegistration()
+        {
+            return View();
+        }
         [HttpGet("registration")]
         public IActionResult Registration()
         {
