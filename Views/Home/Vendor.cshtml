@@ -3,6 +3,10 @@
     ViewData["Title"] = "Infinterest Vendor Registration";
 }
 
+@section css {
+    <link href="@Url.Content("~/css/vendorstyle.css")" rel="stylesheet" type="text/css" />
+}
+
 <div class="container"> 
     <!-- <form class="form-group" asp-action="NewVendor" asp-controller="Home" method="post"> -->
     <form class="form-group" action="/dashboard" method="get">
