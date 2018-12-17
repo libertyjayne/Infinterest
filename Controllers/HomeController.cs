@@ -41,17 +41,7 @@ namespace Infinterest.Controllers
         {
             return View();
         }
-        [HttpGet("registration")]
-        public IActionResult Registration()
-        {
-            return View();
-        }
 
-        [HttpGet("vendor")]
-        public IActionResult Vendor()
-        {
-            return View();
-        }
         // [HttpPost("vendor")]
         // public IActionResult NewVendor(Vendor NewVendor)
         // {
@@ -172,6 +162,11 @@ namespace Infinterest.Controllers
 
         [HttpGet("profile")]
         public IActionResult Profile()
+        {
+            return View();
+        }
+        [HttpGet("profile-changes")]
+        public IActionResult ProfileChanges()
         {
             return View();
         }
