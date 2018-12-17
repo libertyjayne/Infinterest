@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Infinterest.Models
 {
-   public class Listing : BaseEntity
+    public class Listing : BaseEntity
     {   
         public int ListingId {get; set;}
         public string MLSLink {get; set;}
