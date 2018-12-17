@@ -1,6 +1,3 @@
-*{
-    font-family: Verdana, Geneva, sans-serif;
-}
 body, html, .container{
     height: 100%;
     overflow-x: hidden;
@@ -61,7 +58,6 @@ body, html, .container{
     background-color: whitesmoke;
     color: darkslategray;
     margin: 2% 10%;
-    border: 2px solid #35BFFF;
     border-radius: 5px;
 }
 
@@ -112,7 +108,7 @@ body, html, .container{
 #homecontainer .searchbox{
     background-color: rgb(32, 32, 32);
     width: 35%;
-    height: 55%;
+    height: 70%;
     border-radius:5px;
     box-shadow: 2px 2px;
     margin-top: 3%;
@@ -143,7 +139,7 @@ body, html, .container{
 }
 
 #homecontainer .btn-primary{
-    margin-left: 65%;
+    margin-left: 60%;
     margin-top: 3%;
     background-color: #35BFFF;
     color: whitesmoke;
@@ -181,7 +177,7 @@ body, html, .container{
 #homecontainer .form-control{
     height: 50px;
     font-size: 16px;
-    padding: 12px 12px;
+    padding: 12px 18px;
     color: #202020;
 }
 
