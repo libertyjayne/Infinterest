@@ -15,7 +15,7 @@
                 <a class="nav-link" href="vendor-registration">Vendor Sign up</a>
                 <a class="nav-link" href="broker-registration">Broker Sign up</a>
                 <a class="nav-link" href="registration">Buyer/Seller Sign up</a>
-                <a class="nav-link login" href="#">Log in</a>
+                <a class="nav-link login">Log in</a>
             </div>
         </nav>
         <div class="searchbox">
@@ -41,7 +41,7 @@
             </form>
         </div>
             <div class="loginbox">
-                <form>
+                <form onsubmit="gotodashboard()">
                     <i class="fas fa-times-circle"></i>
                     <div class="form-group logformgroup">
                       <input type="text" class="form-control logformcon" placeholder="Email">
@@ -49,7 +49,7 @@
                     <div class="form-group logformgroup">
                       <input type="text" class="form-control logformcon" placeholder="Password">
                     </div>
-                    <button class="btn btn-primary logbutton" type="submit">Log in</button>
+                    <a class="btn btn-primary logbutton" href="dashboard">Log in</a>
                 </form>
         </div>
         <div class="carrot">

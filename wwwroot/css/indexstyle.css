@@ -50,6 +50,10 @@ body, html, .container{
     color: #35BFFF;
 }
 
+.login:hover{
+    cursor: pointer;
+}
+
 #secondarycontainer .result {
     height: 25%;
     margin-left: 1%;
