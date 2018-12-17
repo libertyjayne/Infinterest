@@ -182,7 +182,7 @@ namespace Infinterest.Controllers
         }
 
         [Route("add-listings")]
-        public IActionResult AddeEvents()
+        public IActionResult AddEvents()
         {
             return View();
         }
