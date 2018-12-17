@@ -22,6 +22,11 @@ $(document).ready(function(){
     
     });
   });
+  $(".whitelogo").hover(function () {
+      $('.whitelogo').attr("src", "../images/blue-nosub-inflogo.png");
+  }, function () {
+      $('.whitelogo').attr("src", "../images/white-nosub-inflogo.png");
+  });
 });
 
 var otherCheckbox = document.querySelector('input[value="other"]');
