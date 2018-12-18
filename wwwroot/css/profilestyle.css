@@ -1,37 +1,35 @@
-.whitelogo{
-    width: 8%;
-    display: inline-block;
-    vertical-align: text-top;
-    margin: 1%;
+/* *{
+    border: 1px red dotted;
+} */
+
+/* Button */
+.btn-primary{
+    /* margin: 0 -30%; */
+    background-color: #35BFFF !important;
+    color: whitesmoke !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
 }
 
-nav{
-    background-color: black;
-    box-shadow: 0 8px 6px -6px black;
+.btn-primary:hover{
+    background-color: rgb(22, 138, 192);
 }
 
-.navlinks{
-    display: inline-block;
-    vertical-align: text-top;
-    float: right;
-    padding-top: 2%;
-    width: 45%;
-    height: 100%;
-}
+/* Profile Styling */
+/* Buttons */
+.btn-outline-light{
+    border-color: #343a40 !important; 
+    color: #343a40 !important;
+    height: 30px;
+    width: 100px; 
+  }
+  
+  /* Favorite Button */
+  .red {
+    color: red;
+  }
 
-.nav-link{
-    color: white;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.nav-link:hover{
-    color: #35BFFF;
-    text-decoration: none;
-}
-
+/* Rating */
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -94,24 +92,44 @@ nav{
   .slider.round:before {
     border-radius: 50%;
   }
-  .script-font {
-  font-family: 'affectionately_yoursregular', arial, sans-serif;
+  
+.business-profile .col-sm-2{
+    text-align: center;
+}
+.business-profile .col-sm-7{
+    padding: 0;
+}
+.business-profile h3{
+    margin-top: 0;
+}
+.user-logo{
+    width: 100px;
+    margin: 1% auto;
+    height: 100px;
 }
 
-.btn-primary{
-    /* margin: 0 -30%; */
-    background-color: #35BFFF !important;
-    color: whitesmoke !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
+/* (../images/stars.png) */
+.star-ratings-sprite {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    font-size: 0;
+    height: 21px;
+    line-height: 0;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    
 }
-
-
-.btn-primary:hover{
-    background-color: rgb(22, 138, 192);
+.star-ratings-sprite-rating {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+    display:block;
 }
+/* .right-col {
 
-.profile {
-    border: none;
-    width: 75%;
-}
+    margin-right: -1px;
+    margin-left: calc((576px * 0) - 24px + 49px);
+} */

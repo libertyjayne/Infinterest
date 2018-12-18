@@ -1,7 +1,6 @@
 ﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 // for details on configuring this project to bundle and minify static web assets.
 
-// Write your JavaScript code.
 $(document).ready(function(){
   $(".fa-chevron-down").on('click', function (event) {
       $('html, body').animate({
@@ -27,6 +26,10 @@ $(document).ready(function(){
   }, function () {
       $('.whitelogo').attr("src", "../images/white-nosub-inflogo.png");
   });
+  $(".favBut").click(function () {
+    $(".glyphicon-heart").addClass('red');
+  })
+  
 });
 
 var otherCheckbox = document.querySelector('input[value="other"]');
@@ -41,4 +44,5 @@ otherCheckbox.onchange = function() {
     otherText.style.visibility = 'hidden';
   }
 };
+
 

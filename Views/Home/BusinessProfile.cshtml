@@ -1,95 +1,79 @@
 @{
-    ViewData["Title"] = "Infinterest - View Profile";
+    ViewData["Title"] = "Infinterest - Vendor Profile";
 }
 
 @section css {
     <link href="@Url.Content("~/css/site.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/css/profilestyle.css")" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet/less" type="text/css" href="@Url.Content("~/css/styles.less")" /> -->
 }
+<div class="grey"> 
 <nav> 
-      <a href="#"><img src="../images/white-nosub-inflogo.png" alt="logo" class="whitelogo"></a> 
-      <div class="navlinks">
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Messaging</a>
-          <a class="nav-link" href="/profile">Profile</a>
-          <a class="nav-link" href="/logoff">Sign out</a>
+    <a href="#"><img src="../images/white-nosub-inflogo.png" alt="logo" class="whitelogo"></a> 
+    <div class="navlinks">
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Messaging</a>
+        <a class="nav-link" href="/profile">Profile</a>
+        <a class="nav-link" href="/logoff">Sign out</a>
+    </div>
+</nav>
+  <div class="container mt-5 business-profile white-box"> 
+      <div class="row">
+          <div class="col-sm-2 col-md-4 col-lg-2">
+            <img class="user-logo" src="../images/jimmyjohns.jpg" alt="">
+          </div>
+          <div class="col-sm-7 col-md-8 col-lg-7">
+            <h3>Jimmy Johns</h3>
+            <p>Super fast gourmet sandwiches</p>
+            <div class="star-ratings-sprite"><span style="width:89%" class="star-ratings-sprite-rating"></span> 
+            </div>
+            <p class="d-inline">53 reviews </p>
+          </div>
+
+          <div class="col-sm-3 col-lg-3 p-4">
+          
+            <button type="button" class="favBut btn btn-outline-light d-block">
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> Favorite
+            </button><br>
+
+            <button type="button" class="btn btn-outline-light">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Message
+            </button>
+          </div>
+    </div>
+  </div>
+ 
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-4 pl-0">
+        <div class="white-box">
+          <p>Website: Remax.com/mark-jacob</p>
+          <p>Phone number: (206) 708-6836</p>
+          <p>Contact Name: Mark Jacob</p>
+        </div>
+          
       </div>
-  </nav>
-
-
-<div class="container mt-5"> 
-  <p class="d-inline">Allow brokers to search and view your profile?</p>
-  <label class="switch d-inline-block">
-    <input type="checkbox">
-    <span class="slider round"></span>
-  </label>
-  <a href="" class="d-block">What do brokers see?</a><br>
-  
-  
-    <table class="table profile">
-      <tbody>
-        <tr>
-          <th scope="row"><h3>Profile</h3></th>
-          <td><a href="" class="btn btn-primary">Edit Profile</a></td>
-        </tr>
-        <tr>
-          <th scope="row">First Name</th>
-          <td>Mark</td>
-        </tr>
-        <tr>
-          <th scope="row">Last Name</th>
-          <td>Jacob</td>
-        </tr>
-        <tr>
-          <th scope="row">Email</th>
-          <td>MarkJacob@gmail.com</td>
-        </tr>
-        <tr>
-          <th scope="row">Contact</th>
-          <td>Mark Jacob</td>
-        </tr>
-        <tr>
-          <th scope="row">Contact</th>
-          <td>Mark Jacob</td>
-        </tr>
-        <tr>
-          <th scope="row">Phone Number</th>
-          <td>206-555-9999
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Your bio</th>
-          <td>Specialize in gourmet cookies<br>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Logo</th>
-          <td>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Profile Picture</th>
-          <td>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Company</th>
-          <td>Mark's Cookies
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Area of home you request?</th>
-          <td>Kitchen
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Business Category</th>
-          <td>Food / Catering</td>
-        </tr>
+      <div class="white-box col-8 right-col">
+        <iframe width="320" height="200" src="https://www.youtube.com/embed/w3qFRzWXvWA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        
-        
-      </tbody>
-    </table>
+          
+      </div>
 
+    </div>
+  </div>
+  <div class="container mt-5 white-box">
+    <div class="row">
+      <div class="col">
+        <img class="" src="../images/sample.jpg" alt=""> 
+      </div>
+      <div class="col">
+        <img class="" src="../images/sample1.jpg" alt="">
+      </div>
+      <div class="col">
+        <img class="" src="../images/sample2.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
     
 </div>

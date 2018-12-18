@@ -42,6 +42,17 @@ namespace Infinterest.Controllers
             return View();
         }
 
+        [HttpGet("vendor-profile")]
+        public IActionResult VendorProfile()
+        {
+            return View();
+        }
+        [HttpGet("broker-profile")]
+        public IActionResult BusinessProfile()
+        {
+            return View();
+        }
+
         // [HttpPost("vendor")]
         // public IActionResult NewVendor(Vendor NewVendor)
         // {
