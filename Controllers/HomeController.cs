@@ -164,7 +164,7 @@ namespace Infinterest.Controllers
         {
             return View();
         }
-
+        [HttpGet("messaging")]
         public IActionResult Messaging()
         {
             return View();
