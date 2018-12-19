@@ -187,6 +187,12 @@ namespace Infinterest.Controllers
             return View();
         }
 
+        [HttpGet("search")]
+        public IActionResult AfterSearch()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
