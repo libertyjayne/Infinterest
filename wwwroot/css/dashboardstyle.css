@@ -1,5 +1,6 @@
 body, html, #dashboardcontainer{
     height: 100%;
+    background: #F5F5F5;
 }
 
 .whitelogo{
@@ -113,7 +114,8 @@ nav{
 
 #middlesection .result {
     text-align: left;
-    background-color: whitesmoke;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
     color: darkslategray;
     border-radius: 5px;
     height: 80%;
@@ -166,8 +168,9 @@ nav{
 
 #rightsection .result {
     text-align: left;
-    background-color: whitesmoke;
+    background-color: white;
     color: darkslategray;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
     border-radius: 5px;
     height: 30%;
     margin: 2% 2%;
@@ -221,11 +224,14 @@ nav{
 }
 
 .share{
-    border: 1px outset #35BFFF;
+    /* border: 1px outset #35BFFF; */
+    /* background: #F5F5F5; */
+    background: white;
     border-radius: 5px;
     padding: 2%;
     height: 42%;
     margin-bottom: 2%;
+    /* box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2); */
 }
 
 #middlesection h3{
@@ -287,6 +293,8 @@ nav{
     border-radius: 20px;
     margin: 1%;
     height: 66%;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+
 }
 
 .prefpics{
