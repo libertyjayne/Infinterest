@@ -1,0 +1,51 @@
+.whitelogo{
+    width: 8%;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 1%;
+}
+
+nav{
+    background-color: black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.navlinks{
+    display: inline-block;
+    vertical-align: text-top;
+    float: right;
+    padding-top: 2%;
+    width: 45%;
+    height: 100%;
+}
+
+.nav-link{
+    color: white;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    display: inline-block !important;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #35BFFF;
+    text-decoration: none;
+}
+
+.respic{
+    margin: 3%;
+}
+
+.resinfo{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.resinfo h4{
+    font-size:30px;
+    font-weight: bold;
+}
+.resinfo h6{
+    font-size: 20px;
+}
