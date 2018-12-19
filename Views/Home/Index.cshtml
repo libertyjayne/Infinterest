@@ -11,11 +11,10 @@
         <nav>
             <a href="#"><img src="../images/black-sub-inflogo.png" alt="logo" class="logo"></a>
             <div class="navlinks">
-                <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="vendor-registration">Vendor Sign up</a>
-                <a class="nav-link" href="broker-registration">Broker Sign up</a>
-                <a class="nav-link" href="registration">Buyer/Seller Sign up</a>
-                <a class="nav-link login" href="#">Log in</a>
+                <a class="nav-link" href="http://infinterest.com/#home">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="vendor-registration">Vendor Sign Up</a>
+                <a class="nav-link" href="broker-registration">Broker Sign Up</a>
+                <a class="nav-link login">Log In</a>
             </div>
         </nav>
         <div class="searchbox">
@@ -37,56 +36,22 @@
                     <label>to</label>
                     <input type="number" class="form-control daterange" min="10000" max="100000000" value="100000000">
                 </div>
-                <button class="btn btn-primary" type="submit">Search</button>
+                <a href="/search" class="btn btn-primary" type="submit">Search</a>
             </form>
         </div>
-            <div class="loginbox">
-                <form>
-                    <i class="fas fa-times-circle"></i>
-                    <div class="form-group logformgroup">
-                      <input type="text" class="form-control logformcon" placeholder="Email">
-                    </div>
-                    <div class="form-group logformgroup">
-                      <input type="text" class="form-control logformcon" placeholder="Password">
-                    </div>
-                    <button class="btn btn-primary logbutton" type="submit">Log in</button>
-                </form>
-        </div>
-        <div class="carrot">
-            <i class="fas fa-chevron-down"></i>
+        <div class="loginbox">
+            <form onsubmit="gotodashboard()">
+                <i class="fas fa-times-circle"></i>
+                <div class="form-group logformgroup">
+                  <input type="text" class="form-control logformcon" placeholder="Email">
+                </div>
+                <div class="form-group logformgroup">
+                  <input type="text" class="form-control logformcon" placeholder="Password">
+                </div>
+                <a class="btn btn-primary logbutton" href="dashboard">Log in</a>
+            </form>
         </div>
     </div>
-    <div id="secondarycontainer">
-        <div class="result">
-            <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" class="respic">
-            <div class="resinfo">
-                <h4>1234 Address Way</h4>
-                <h4>Cityville, WA 90528</h4>
-                <h6>Dec. 32, 2020</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
-                <a href="#"><h5>Details</h5></a>
-            </div>
-        </div>
-        <div class="result">
-            <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" class="respic">
-            <div class="resinfo">
-                <h4>1234 Address Way</h4>
-                <h4>Cityville, WA 90528</h4>
-                <h6>Dec. 32, 2020</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
-                <a href="#"><h5>Details</h5></a>
-            </div>
-        </div>
-        <div class="result">
-            <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" class="respic">
-            <div class="resinfo">
-                <h4>1234 Address Way</h4>
-                <h4>Cityville, WA 90528</h4>
-                <h6>Dec. 32, 2020</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
-                <a href="#"><h5>Details</h5></a>
-            </div>
-        </div>
-    </div>
+</div>
 
     

@@ -6,8 +6,77 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 #messageInput{
     bottom: 0;
     position: absolute;
 }
 
+.whitelogo{
+    width: 8%;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 1%;
+}
+
+nav{
+    background-color: black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.navlinks{
+    display: inline-block;
+    vertical-align: text-top;
+    float: right;
+    padding-top: 2%;
+    width: 45%;
+    height: 100%;
+}
+
+.nav-link{
+    color: white;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    display: inline-block !important;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: #35BFFF;
+    text-decoration: none;
+}
+
+.btn-primary{
+    background-color: #35BFFF !important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(22, 138, 192) !important;
+}
+
+.bg-dark{
+    background-color: white !important;
+}
+
+h2{
+    color: black !important;
+}
+
+.container{
+    margin-top: 2%;
+}
+
+.activepic{
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 2%;
+}
+
+.inline{
+    display: inline;
+    vertical-align: middle;
+}
+
+.badge-primary{
+    background-color: #35BFFF !important;
+}

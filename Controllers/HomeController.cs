@@ -42,13 +42,19 @@ namespace Infinterest.Controllers
             return View();
         }
 
-        [HttpGet("vendor-profile")]
-        public IActionResult VendorProfile()
+        [HttpGet("broker-profile")]
+        public IActionResult BrokerProfile()
         {
             return View();
         }
-        [HttpGet("broker-profile")]
+        [HttpGet("vendor-profile")]
         public IActionResult BusinessProfile()
+        {
+            return View();
+        }
+
+        [HttpGet("event-detail")]
+        public IActionResult EventDetail()
         {
             return View();
         }
@@ -182,7 +188,13 @@ namespace Infinterest.Controllers
         }
 
         [Route("add-listings")]
-        public IActionResult AddeEvents()
+        public IActionResult AddEvents()
+        {
+            return View();
+        }
+
+        [HttpGet("search")]
+        public IActionResult AfterSearch()
         {
             return View();
         }
