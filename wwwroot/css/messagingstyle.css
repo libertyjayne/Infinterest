@@ -1,3 +1,6 @@
+body{
+    background-color: #F5F5F5 !important;
+}
 
 #message{
     flex: 0 1 auto;
@@ -55,7 +58,7 @@ nav{
 }
 
 .bg-dark{
-    background-color: white !important;
+    background-color: #F5F5F5 !important;
 }
 
 h2{
@@ -79,4 +82,8 @@ h2{
 
 .badge-primary{
     background-color: #35BFFF !important;
+}
+
+.mr-sm-2{
+    margin-bottom: 5% !important;
 }

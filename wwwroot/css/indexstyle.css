@@ -55,12 +55,17 @@ body, html, .container{
     cursor: pointer;
 }
 
+body{
+    background-color: #F5F5F5 !important;
+}
+
 #secondarycontainer .result {
     height: 25%;
     margin-left: 1%;
     margin-bottom: 2%;
     text-align: left;
-    background-color: whitesmoke;
+    background-color: white;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
     color: darkslategray;
     margin: 2% 10%;
     border-radius: 5px;
