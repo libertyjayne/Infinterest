@@ -1,18 +1,18 @@
 /* Site Styling */
 /* NavBar */
-.whitelogo{
+.header .whitelogo{
     width: 8%;
     display: inline-block;
     vertical-align: text-top;
     margin: 1%;
 }
 
-nav{
+,.header nav{
     background-color: black;
     /* box-shadow: 0 8px 6px -6px black; */
 }
 
-.navlinks{
+.header .navlinks{
     display: inline-block;
     vertical-align: text-top;
     float: right;
@@ -21,7 +21,7 @@ nav{
     height: 100%;
 }
 
-.nav-link{
+.header .nav-link{
     color: white;
     padding-left: 5% !important;
     padding-right: 5% !important;
@@ -29,7 +29,7 @@ nav{
     font-size: 20px;
 }
 
-.nav-link:hover{
+.header .nav-link:hover{
     color: #35BFFF;
     text-decoration: none;
 }

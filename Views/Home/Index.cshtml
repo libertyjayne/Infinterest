@@ -4,19 +4,21 @@
 
 @section css {
     <link href="@Url.Content("~/css/indexstyle.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/site1.css")" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 }
 
-    <div id="homecontainer">
-        <nav>
-            <a href="#"><img src="../images/black-sub-inflogo.png" alt="logo" class="logo"></a>
-            <div class="navlinks">
-                <a class="nav-link" href="http://infinterest.com/#home">About<span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="vendor-registration">Vendor Sign Up</a>
-                <a class="nav-link" href="broker-registration">Broker Sign Up</a>
-                <a class="nav-link login">Log In</a>
-            </div>
-        </nav>
+<div id="homecontainer">
+    <nav class="header-landing">
+        <a href="#"><img src="../images/black-sub-inflogo.png" alt="logo" class="logo"></a>
+        <div class="navlinks">
+            <a class="nav-link" href="http://infinterest.com/#home">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="vendor-registration">Vendor Sign Up</a>
+            <a class="nav-link" href="broker-registration">Broker Sign Up</a>
+            <a class="nav-link login">Log In</a>
+        </div>
+    </nav>
+    <div class="container wrapper">
         <div class="searchbox">
             <h4>Search Upcoming Open House Events.</h4>
             <form>
@@ -51,6 +53,7 @@
                 <a class="btn btn-primary logbutton" href="dashboard">Log in</a>
             </form>
         </div>
+    </div>
     </div>
 </div>
 
