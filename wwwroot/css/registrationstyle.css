@@ -17,76 +17,6 @@ body{
     padding: 0px 0px 0px 0px;
 }
 
-
-.logo{
-    width: 12%;
-    display: inline-block;
-    vertical-align: text-top;
-    margin: 2% 0% 0% 2%;
-}
-
-.navbar.transparent.navbar-inverse .navbar-inner {
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-}
-
-.navlinks{
-    display: inline-block;
-    vertical-align: text-top;
-    float: right;
-    margin-top: 2%;
-}
-
-.nav-link{
-    color: black;
-    margin-right: 6rem !important;
-    display: inline;
-    font-size: 20px;
-}
-
-.nav-link:hover{
-    color: #35BFFF !important;
-}
-
-/* .whitelogo{
-    width: 8%;
-    display: inline-block;
-    vertical-align: text-top;
-    margin: 1%;
-}
-
-nav{
-    background-color: black;
-    box-shadow: 0 8px 6px -6px black;
-}
-
-.navlinks{
-    display: inline-block;
-    vertical-align: text-top;
-    float: right;
-    padding-top: 2%;
-    width: 55%;
-    height: 100%;
-}
-
-.nav-link{
-    color: white;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.nav-link:hover{
-    color: #35BFFF;
-    text-decoration: none;
-} */
-
 .btn-primary{
     margin: 0 -30%;
     background-color: #35BFFF !important;
@@ -94,7 +24,6 @@ nav{
     font-weight: bold !important;
     font-size: 20px !important;
 }
-
 
 .btn-primary:hover{
     background-color: rgb(22, 138, 192);

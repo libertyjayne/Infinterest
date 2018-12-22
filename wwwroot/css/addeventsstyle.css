@@ -10,40 +10,6 @@ body, html, .ultimatecontainer{
     background-size: cover;
 }
 
-.whitelogo{
-    width: 8%;
-    display: inline-block;
-    vertical-align: text-top;
-    margin: 1%;
-}
-
-nav{
-    background-color: black;
-    box-shadow: 0 8px 6px -6px black;
-}
-
-.navlinks{
-    display: inline-block;
-    vertical-align: text-top;
-    float: right;
-    padding-top: 2%;
-    width: 45%;
-    height: 100%;
-}
-
-.nav-link{
-    color: white;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-    display: inline-block;
-    font-size: 20px;
-}
-
-.nav-link:hover{
-    color: #35BFFF;
-    text-decoration: none;
-}
-
 label{
     color: whitesmoke;
     font-size: 20px;
