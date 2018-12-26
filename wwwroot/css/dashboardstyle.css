@@ -347,3 +347,51 @@ ul {
   background: #35BFFF;
   color: white !important
 }
+
+@media (max-width : 481px) {
+    .share {
+        padding-top: 30px;
+    }
+
+    #leftsection,
+    #middlesection,
+    #rightsection {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 5%;
+    }
+
+    #middlesection .result {
+        margin: 30px 0px;
+        padding: 30px 0px;
+        box-sizing: border-box;
+    }
+
+    #middlesection .respic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        width: 80%;
+        border-radius:3px;
+    }
+    
+    #middlesection .resinfo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+}
+
+@media only screen and (min-device-width : 768px) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width : 991px) {
+    /* Styles */
+}
