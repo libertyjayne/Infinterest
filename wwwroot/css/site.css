@@ -92,3 +92,24 @@ Was Matt's styling -LF */
     box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
     padding: 10px;
 }
+
+@media (max-width : 768px) {
+    
+    .header .whitelogo {
+        width: 18%;
+        padding-left: 3%;
+    }
+    
+    .header .navlinks{
+        text-align: right;
+        align-items: baseline;
+        width: 80%;
+        box-sizing: border-box;
+    }
+    
+    .header .nav-link{
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+    
+}

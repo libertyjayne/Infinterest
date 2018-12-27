@@ -195,7 +195,7 @@ body, html, #dashboardcontainer{
     background: white;
     border-radius: 5px;
     padding: 2%;
-    height: 42%;
+    height: 50%;
     margin-bottom: 2%;
     /* box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2); */
 }
@@ -227,7 +227,7 @@ body, html, #dashboardcontainer{
 
 .price{
     display: block;
-    margin-left: 3%;
+    /* margin-left: 3%; */
 }
 
 #leftsection .btn-primary{
@@ -348,7 +348,7 @@ ul {
   color: white !important
 }
 
-@media (max-width : 481px) {
+@media (max-width : 768px) {
     .share {
         padding-top: 30px;
     }
@@ -360,6 +360,38 @@ ul {
         height: auto;
         display: block;
         padding: 5%;
+    }
+
+    .prefpics {
+        margin: 5% 2%;
+        text-align: center;
+    }
+
+    .preferred {
+        margin: 5%;
+    }
+
+    .row .form-control {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .daterangecontainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #leftsection form-group {
+        margin: 10% auto !important;
+    }
+
+    #leftsection label {
+        align-self: center;
+    }
+
+    #leftsection .btn-primary {
+        margin: auto;
+        width: 100%;
     }
 
     #middlesection .result {
@@ -393,5 +425,16 @@ ul {
 }
 
 @media only screen and (min-device-width : 991px) {
+
+    #rightsection .btn {
+        display: block;
+        margin: auto;
+        width: 100%;
+        align-content: center;
+    }
+    
+}
+
+@media only screen and (min-device-width : 769px) {
     /* Styles */
 }
