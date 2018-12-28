@@ -17,8 +17,6 @@ body{
     padding: 0px 0px 0px 0px;
 }
 
-
-
 .btn-primary:hover{
     background-color: rgb(22, 138, 192);
 }
@@ -55,11 +53,26 @@ label{
 a:hover{
     text-decoration: none;
 }
-.wrapper{
+@media(min-width:768px){
+    .wrapper{
+        display: flex;
+    }
+    .box1 {
+        padding-right: 10px;
+    } 
+    .box2 {
+        padding-left: 10px;
+    }
+}
+.box1 {
+    flex: 1;
+} 
+.box2 {
+    flex: 1;
 }
 
 .regbox {
-    display: flex;
+    
     background-color: rgb(32, 32, 32);
     /* width: 35%;
     height: 55%; */
