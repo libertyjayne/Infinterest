@@ -1,6 +1,30 @@
+#broker-profile{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+/* Vendor will be logo and Broker will be picture of self */
+.profile-pic{
+  width: 100%;
+  margin-top: -35px;
+}
+.contact-info{
+  max-height: 200px;
+}
+.reviews{
+  height: 350px;
+}
+.youTube{
+}
+.top-box{
+  min-height: 350px;
+}
+.youTube iframe{
+  width: 100%;
+  /* width: 540;
+  height: 400; */
+}
 
-
-/* Button */
+/* Buttons */
 .btn-primary{
     /* margin: 0 -30%; */
     background-color: #35BFFF !important;
@@ -8,109 +32,73 @@
     font-weight: bold !important;
     font-size: 20px !important;
 }
-
 .btn-primary:hover{
     background-color: rgb(22, 138, 192);
 }
-
-/* Profile Styling */
-/* Buttons */
 .btn-outline-light{
     border-color: #343a40 !important; 
     color: #343a40 !important;
     height: 30px;
     width: 100px; 
   }
-  
-  /* Favorite Button */
-  .red {
-    color: red;
-  }
+/* h3{
+  margin-top: 0;
+} */
+a{
+  margin: 0 0 10px;
+}
 
+/* Picture for broker and logo for Vendor */
+
+
+@media (min-width: 700px) {
+  #broker-profile{
+    display: grid;
+    grid-gap:1em;
+    margin-top: 2em;
+    grid-template-columns:1fr 3fr;
+    grid-template-rows:1fr 2fr 2fr 2fr;
+    
+    /* grid-auto-rows:minmax(100px, auto); */
+    /* justify-items:stretch;
+    align-items:stretch; */
+  }
+  .top-box{
+    display: flex;
+    grid-column:1/5;
+    grid-row:1/2;
+    /* flex-wrap: wrap; */
+  }
+  .top-box > div{
+    flex: 1;
+    /* flex-basis: 150px; */
+  }
+  .contact-info{
+    grid-column:1/2;
+    grid-row:2/4;
+    max-height: 200px;
+  }
+  .reviews{
+    grid-column:2/5;
+    grid-row:2/4;
+    height: 350px;
+  }
+  .youTube{
+    grid-column:2/5;
+    grid-row:4/6;
+  }
+  /* .row3-box{
+  grid-column:2/5;
+  grid-row:6/8;
+} */
+
+}
+
+/* Favorite Button */
+.red {
+  color: red;
+}
 /* Rating */
-/* The switch - the box around the slider */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
-  
-.business-profile .col-sm-2{
-    text-align: center;
-}
-.business-profile .col-sm-7{
-    padding: 0;
-}
-.business-profile h3{
-    margin-top: 0;
-}
-.user-logo{
-    width: 100px;
-    margin: 1% auto;
-    /* height: 100px; */
-}
-.user-profile{
-    width: 100%;
-    margin: 1% auto;
-    /* height: 100px; */
-}
-
 /* (../images/stars.png) */
 .star-ratings-sprite {
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
@@ -122,7 +110,7 @@
     width: 110px;
     display: inline-block;
     vertical-align: top;
-    
+    margin-bottom: 13px;
 }
 .star-ratings-sprite-rating {
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
@@ -131,8 +119,3 @@
     height: 21px;
     display:block;
 }
-/* .right-col {
-
-    margin-right: -1px;
-    margin-left: calc((576px * 0) - 24px + 49px);
-} */
