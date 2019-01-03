@@ -5,13 +5,10 @@
 /* Vendor will be logo and Broker will be picture of self */
 .profile-pic{
   width: 100%;
-  margin-top: -35px;
+  /* margin-top: -35px; */
 }
 .contact-info{
   max-height: 200px;
-}
-.reviews{
-  height: 350px;
 }
 .youTube{
 }
@@ -20,27 +17,22 @@
 }
 .youTube iframe{
   width: 100%;
-  /* width: 540;
-  height: 400; */
+  /* width: 540px;
+  height: 400px; */
 }
 
 /* Buttons */
-.btn-primary{
-    /* margin: 0 -30%; */
-    background-color: #35BFFF !important;
-    color: whitesmoke !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
+.btn {
+  height: 30px;
+  width: 100px;
 }
-.btn-primary:hover{
-    background-color: rgb(22, 138, 192);
-}
-.btn-outline-light{
-    border-color: #343a40 !important; 
+.btn-outline-primary{
+    border-color: #343a40 !important;
     color: #343a40 !important;
-    height: 30px;
-    width: 100px; 
+
   }
+  /* Not working - not sure why */
+
 /* h3{
   margin-top: 0;
 } */
@@ -49,7 +41,11 @@ a{
 }
 
 /* Picture for broker and logo for Vendor */
-
+@media (max-width: 360px){
+  .profile-pic{
+    margin-top: -28px;
+  }
+}
 
 @media (min-width: 700px) {
   #broker-profile{
@@ -58,7 +54,7 @@ a{
     margin-top: 2em;
     grid-template-columns:1fr 3fr;
     grid-template-rows:1fr 2fr 2fr 2fr;
-    
+
     /* grid-auto-rows:minmax(100px, auto); */
     /* justify-items:stretch;
     align-items:stretch; */
@@ -94,10 +90,6 @@ a{
 
 }
 
-/* Favorite Button */
-.red {
-  color: red;
-}
 /* Rating */
 /* (../images/stars.png) */
 .star-ratings-sprite {
