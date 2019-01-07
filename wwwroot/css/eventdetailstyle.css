@@ -1,4 +1,188 @@
+/* Phone devices */
+@media screen and (max-width : 768px) {
+    .share {
+        padding-top: 30px;
+    }
 
+    #leftsection,
+    #middlesection,
+    #rightsection {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 5%;
+    }
+
+    .prefpics {
+        margin: 5% 2%;
+        text-align: center;
+    }
+
+    .preferred {
+        margin: 5%;
+    }
+
+    .row .form-control {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .daterangecontainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #leftsection form-group {
+        margin: 10% auto !important;
+    }
+
+    #leftsection label {
+        align-self: center;
+    }
+
+    #leftsection .btn-primary {
+        margin: auto;
+        width: 100%;
+    }
+
+    #middlesection .result {
+        margin: 30px 0px;
+        padding: 30px 0px;
+        box-sizing: border-box;
+    }
+
+    #middlesection .respic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        width: 80%;
+        border-radius:3px;
+    }
+    
+    #middlesection .resinfo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+        padding-top: 2%;
+    }
+    
+}
+
+/* Medium devices: 
+fix navbar because it broke
+fix form.dashsearch, form groups, and the search button, div.prefpics & its img in left section
+maybe move the left section to the top, search and prefpics becomes inline-blocks?
+ */
+@media screen and (max-width : 991px) and (min-width: 769px) {
+    .share {
+        padding-top: 30px;
+    }
+
+    #leftsection {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        padding: 5%;
+    }
+
+    .dashsearch, .pref {
+        display: inline-block;
+        height: 80%;
+    }
+
+    .dashsearch {
+        width: 55%;
+    }
+
+    .pref {
+        width: 40%;
+    }
+
+    #middlesection,
+    #rightsection {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 5%;
+    }
+
+    
+
+    .prefpics {
+        margin: 5% 2%;
+        text-align: center;
+    }
+
+    .preferred {
+        margin: 5%;
+    }
+
+    .row .form-control {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .daterangecontainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #leftsection form-group {
+        margin: 10% auto !important;
+    }
+
+    #leftsection label {
+        align-self: center;
+    }
+
+    #leftsection .btn-primary {
+        margin: auto;
+        width: 100%;
+    }
+
+    #middlesection .result {
+        margin: 30px 0px;
+        padding: 30px 0px;
+        box-sizing: border-box;
+    }
+
+    #middlesection .respic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        width: 80%;
+        border-radius:3px;
+    }
+    
+    #middlesection .resinfo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .result {
+        height: 200px;
+    }
+
+}
+
+/* Large devices */
+@media only screen and (min-device-width : 1100px) {
+
+    #rightsection .btn {
+        display: block;
+        margin: auto;
+        width: 100%;
+        align-content: center;
+    }  
+}
 
 #event-details{
     margin-top: 15px;
@@ -34,6 +218,46 @@
     line-height: 30px;
     text-align: center;
 }
+
+#vendors-social {
+    text-align: center;
+}
+.vendors-social col-sm-8 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+}
+
+.vendors-social h5 {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.vendors {
+    margin: 10px 10px auto;
+    height: 80px;
+    width: auto;
+}
+
+.social {
+    margin: 10px 10px auto;
+    height: 40px;
+    width: auto;
+}
+
+.modal {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 150px;
+    background-color: fuchsia;
+    margin-top: 300px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+
 
 
 
