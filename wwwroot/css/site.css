@@ -1,4 +1,7 @@
 /* Transparent NavBar */
+:root{
+    --blue:  #35BFFF;
+} 
 #homecontainer .logo{
     width: 12%;
     display: inline-block;
@@ -89,6 +92,7 @@ Was Matt's styling -LF */
     box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
     padding: 10px;
 }
+
 
 @media (max-width : 768px) {
     
