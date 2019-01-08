@@ -60,7 +60,6 @@ a{
 @media (min-width: 768px) {
   #broker-profile{
     display: grid;
-    grid-gap:2em;
     margin-top: 3.5em;
     grid-template-columns:repeat(5, 1fr);
     grid-template-rows:repeat(5, 1fr)
@@ -73,7 +72,7 @@ a{
     display: flex;
     grid-column:1/6;
     grid-row:1/3;
-    max-height: 50%;
+    max-height: 44%;
     justify-content: space-between;
     flex-flow: row wrap;
     align-items: center;
@@ -81,7 +80,6 @@ a{
     /* flex-wrap: wrap; */
   }
  
-  
   .top-box:nth-child(2){
     width:25%;
   }
@@ -101,9 +99,10 @@ a{
   /* margin: auto auto; */
   }
   .contact-info{
+    display: flex;
+    flex-direction: column;
     grid-column:1/2;
     grid-row:2/4;
-    max-height: 200px;
   }
  }
 
