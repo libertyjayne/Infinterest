@@ -9,9 +9,9 @@ $(document).ready(function(){
   });
   $(".login").click(function(){
     $(".loginbox").animate({
-    left: "-=20%"
+    left: "-=35%"
   }, 1000, function() {
-    
+      
     });
   });
   $(".fa-times-circle").click(function(){
