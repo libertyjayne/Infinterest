@@ -4,19 +4,24 @@
 
 @section css {
     <link href="@Url.Content("~/css/dashboardstyle.css")" rel="stylesheet" type="text/css" />
-    <link href="@Url.Content("~/css/site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/nav.css")" rel="stylesheet" type="text/css" />
 }
-
-<div id="dashboardcontainer">
-    <nav class="header">
-        <a href="/dashboard"><img src="../images/white-nosub-inflogo.png" alt="logo" class="whitelogo"></a>
-        <div class="navlinks">
-            <a class="nav-link" href="http://infinterest.com/#home">About</a>
-            <a class="nav-link" href="/messaging">Messaging</a>
-            <a class="nav-link" href="/profile">Profile</a>
-            <a class="nav-link" href="/logoff">Sign out</a>
-        </div>
+<header>
+    <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+      <ul>
+        <li><a href="http://infinterest.com/#home">About</a></li>
+        <li><a href="/messaging">Messaging</a></li>
+        <li><a href="/logoff">Sign out</a></li>
+      </ul>
     </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
+</header>
+<div id="dashboardcontainer">
+
     <div id="leftsection">
         <div class="dashsearch">
             <form action="">

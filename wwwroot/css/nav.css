@@ -12,14 +12,7 @@ body {
 box-sizing: border-box;
 }
 
-.content {
-    height: 100%;
-    /* background-blend-mode: multiply; */
-    background-size: cover;
-    display: grid;
-    /* margin-top: 2em; */
-    place-items: top;
-}
+
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
 
