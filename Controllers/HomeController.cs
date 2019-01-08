@@ -43,12 +43,12 @@ namespace Infinterest.Controllers
         }
 
         [HttpGet("broker-profile")]
-        public IActionResult BrokerProfile()
+        public IActionResult BrokerProfile1()
         {
             return View();
         }
         [HttpGet("vendor-profile")]
-        public IActionResult BusinessProfile()
+        public IActionResult BrokerProfile()
         {
             return View();
         }

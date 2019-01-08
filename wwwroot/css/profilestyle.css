@@ -26,7 +26,7 @@
     height: 21px;
     display:block;
 }
-
+/* Youtube */
 .youTube iframe{
   width: 100%;
   /* width: 540px;
@@ -37,7 +37,6 @@
   margin: 0px 10px 10px;
   font-size: 1.5em;
 }
-  
 /* Buttons */
 .btn {
 height: 30px;
@@ -46,7 +45,6 @@ width: 100px;
 .btn-outline-primary{
   border-color: #343a40 !important;
   color: #343a40 !important;
-
 }
 
 a{
@@ -55,15 +53,15 @@ a{
 /* Vendor will be logo and Broker will be picture of self */
 .profile-pic{
   width: 100%;
-  margin-top: 1em;
+  /* margin-top: 1em; */
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #broker-profile{
     display: grid;
-    grid-gap:1em;
-    margin-top: 2em;
+    grid-gap:2em;
+    margin-top: 3.5em;
     grid-template-columns:repeat(5, 1fr);
     grid-template-rows:repeat(5, 1fr)
 
@@ -72,24 +70,24 @@ a{
     align-items:stretch; */
   }
   .top-box{
-    
     display: flex;
     grid-column:1/6;
     grid-row:1/3;
     max-height: 50%;
     justify-content: space-between;
     flex-flow: row wrap;
+    align-items: center;
     /* height: 100px !important ; */
     /* flex-wrap: wrap; */
   }
-  .top-box > div{
-    flex: 1; 
-    text-align: right;
-  } 
+ 
+  
+  .top-box:nth-child(2){
+    width:25%;
+  }
   /* Vendor will be logo and Broker will be picture of self */
   .profile-pic{
     max-width: 300px;
-    /* margin-top: -35px; */
   }
   .youTube{
     grid-column:3/6;
