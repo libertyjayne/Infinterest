@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="@Url.Content("~/css/messagingstyle.css")" rel="stylesheet" type="text/css" />
 }
-
-<nav class="header">
-    <a href="/dashboard"><img src="../images/white-nosub-inflogo.png" alt="logo" class="whitelogo"></a>
-    <div class="navlinks">
-        <a class="nav-link" href="http://infinterest.com/#home">About</a>
-        <a class="nav-link" href="/messaging">Messaging</a>
-        <a class="nav-link" href="/profile">Profile</a>
-        <a class="nav-link" href="/logoff">Sign out</a>
-    </div>
-</nav>
+<header>
+  <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+      <ul>
+      <li><a href="/dashboard">Home</a></li>
+      <li><a href="http://infinterest.com/#home">About</a></li>
+      <li><a class="" href="vendor-registration">Vendor Sign Up</a></li>
+      <li><a class="" href="broker-registration">Broker Sign Up</a></li>
+      <li><a class="login">Log In</a></li>
+      </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+  </label>
+</header>
     <div class="container">
         <div class="row row-content">
             <div class="col-md-4">
