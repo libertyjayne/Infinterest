@@ -424,11 +424,6 @@ ul {
     
 }
 
-/* Medium devices: 
-fix navbar because it broke
-fix form.dashsearch, form groups, and the search button, div.prefpics & its img in left section
-maybe move the left section to the top, search and prefpics becomes inline-blocks?
- */
 @media screen and (max-width : 991px) and (min-width: 769px) {
     .share {
         padding-top: 30px;

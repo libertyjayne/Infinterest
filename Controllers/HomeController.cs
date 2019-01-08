@@ -39,13 +39,13 @@ namespace Infinterest.Controllers
         [HttpGet("broker-registration")]
         public IActionResult BrokerRegistration()
         {
-            return View();
+            return View("BrokerRegistration");
         }
 
         [HttpGet("broker-profile")]
         public IActionResult BrokerProfile1()
         {
-            return View();
+            return View("BrokerProfile");
         }
         [HttpGet("vendor-profile")]
         public IActionResult BrokerProfile()
