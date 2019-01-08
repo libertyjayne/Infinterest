@@ -351,6 +351,20 @@ ul {
   color: white !important
 }
 
+.modal-body {
+    text-align: center;
+}
+
+.modal-result {
+    align-content: center;
+    text-align: center;
+}
+
+.modal-body img {
+    width: 100%;
+    display: block;
+}
+
 /* Phone devices */
 @media screen and (max-width : 768px) {
     .share {
