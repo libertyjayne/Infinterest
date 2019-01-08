@@ -43,7 +43,7 @@ namespace Infinterest.Controllers
         }
 
         [HttpGet("broker-profile")]
-        public IActionResult nav()
+        public IActionResult BrokerProfile()
         {
             return View();
         }

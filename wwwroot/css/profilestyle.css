@@ -1,25 +1,23 @@
 
-.content {
-    height: 100%;
-    background-size: cover;
-    display: grid;
-    place-items: top; 
-    /* background-blend-mode: multiply; */
-   padding-top: 2em;
+#broker-profile{
+  margin-top: 1em;
+  margin-bottom: 2em;
+  height: 100%;
+  background-size: cover;
+  padding-top: 2em;
 }
-  /* Rating */
-  /* (../images/stars.png) */
-  .star-ratings-sprite {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
-    font-size: 0;
-    height: 21px;
-    line-height: 0;
-    overflow: hidden;
-    text-indent: -999em;
-    width: 110px;
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 13px;
+/* Rating */
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 13px;
 }
 .star-ratings-sprite-rating {
     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
@@ -29,60 +27,35 @@
     display:block;
 }
 
-#broker-profile{
-    margin-top: 1em;
-    margin-bottom: 2em;
-  }
+.youTube iframe{
+  width: 100%;
+  /* width: 540px;
+  height: 400px; */
+}
+/* Social Media Icons */
+.contact-info i{
+  margin: 0px 10px 10px;
+  font-size: 1.5em;
+}
   
-  /* .contact-info{
-    max-height: 200px;
-  } */
-  
-  .youTube iframe{
-    width: 100%;
-    /* width: 540px;
-    height: 400px; */
-  }
-  /* Social Media Icons */
-  .contact-info i{
-    margin: 0px 10px 10px;
-    font-size: 1.5em;
-  }
-  
-  /* Buttons */
-  .btn {
-    height: 30px;
-    width: 100px;
-  }
-  .btn-outline-primary{
-      border-color: #343a40 !important;
-      color: #343a40 !important;
-  
-    }
-  
-  a{
-    margin: 0 0 10px;
-  }
-  
-  /* Picture for broker and logo for Vendor */
-    .profile-pic{
-      margin-top: 1em;
-    }
-    .top-box{
-      /* min-height: 350px; */
-    }
-    /* Vendor will be logo and Broker will be picture of self */
-    .profile-pic{
-      width: 100%;
-      /* margin-top: -35px; */
-    }
+/* Buttons */
+.btn {
+height: 30px;
+width: 100px;
+}
+.btn-outline-primary{
+  border-color: #343a40 !important;
+  color: #343a40 !important;
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap */
+}
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
+a{
+  margin: 0 0 10px;
+}
+/* Vendor will be logo and Broker will be picture of self */
+.profile-pic{
+  width: 100%;
+  margin-top: 1em;
 }
 
 /* Medium devices (tablets, 768px and up) */
