@@ -267,12 +267,19 @@ maybe move the left section to the top, search and prefpics becomes inline-block
 #share-ig, #share-fb, #share-tweet, #share-email {
     overflow: visible;
 }
+
+#share-ig a, #share-fb a, #share-tweet a, #share-email a {
+    overflow: visible;
+    color: #333333;
+    font-size: 10pt;
+}
+
 .modal {
     display: block;
     margin: 0 auto;
     width: 350px;
     height: 125px;
-    background-color: lightskyblue;
+    background-color: rgb(22, 138, 192);
     margin-top: 300px;
     font-size: 14pt;
     font-weight: bold;

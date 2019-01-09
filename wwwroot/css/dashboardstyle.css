@@ -8,10 +8,10 @@ body, html, #dashboardcontainer{
     height: 87%;
     display: inline-block;
     /* outline: 2px dotted red; */
-    padding-top: 1%;
+    /* padding-top: 1%; */
     float: left;
     vertical-align: top;
-    padding-top: 50px;
+    padding-top: 58px;
     /*overflow-y: scroll;*/
 }
 
@@ -21,7 +21,7 @@ body, html, #dashboardcontainer{
     display: inline-block;
     /* outline: 2px dotted red; */
     /* padding: 1% 1%; */ 
-    padding-top: 50px;
+    padding-top: 60px;
     margin-top: 1%;
     vertical-align: top;
     /* border: 3px inset lightgray; */
@@ -77,8 +77,8 @@ body, html, #dashboardcontainer{
     display: inline-block;
     float: right;
     /* padding-top: 1%; */
-    padding-top: 50px;
-    vertical-align: top;
+    padding-top: 73px;
+    /* vertical-align: top; */
 }
 
 #middlesection .result {
@@ -110,7 +110,7 @@ body, html, #dashboardcontainer{
 #middlesection h4{
     font-weight: 900 ;
     font-size: 18px;
-    line-height: 12px;
+    line-height: auto;
 }
 
 #middlesection p{
@@ -233,6 +233,11 @@ body, html, #dashboardcontainer{
     /* margin-left: 3%; */
 }
 
+.preftitle {
+    display: block;
+    margin-left: 4%;    
+}
+
 #leftsection .btn-primary{
     margin-left: 60%;
     margin-top: 3%;
@@ -268,7 +273,9 @@ body, html, #dashboardcontainer{
 
 .prefpics{
     margin-left: 3%;
-    height: 15%;
+    height: auto;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .upevents{
@@ -371,13 +378,19 @@ ul {
         padding-top: 30px;
     }
 
-    #leftsection,
+    #leftsection {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 8% 5% 2% 5%;
+    } 
+    
     #middlesection,
     #rightsection {
         width: 100%;
         height: auto;
         display: block;
-        padding: 5%;
+        padding: 5% 5% 2% 5%;
     }
 
     .prefpics {
@@ -432,6 +445,7 @@ ul {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+        height: auto;
         text-align: center;
         padding-top: 2%;
     }
@@ -447,7 +461,7 @@ ul {
         width: 100%;
         height: auto;
         display: inline-block;
-        padding: 5%;
+        padding: 7% 5% 2% 5%;
     }
 
     .dashsearch, .pref {
@@ -457,21 +471,27 @@ ul {
 
     .dashsearch {
         width: 55%;
+        display: inline-block;
+        vertical-align: top;
     }
 
     .pref {
         width: 40%;
     }
 
-    #middlesection,
+    #middlesection {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 3% 5%;
+    }
+
     #rightsection {
         width: 100%;
         height: auto;
         display: block;
-        padding: 5%;
+        padding-top: 70px;
     }
-
-    
 
     .prefpics {
         margin: 5% 2%;

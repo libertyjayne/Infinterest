@@ -99,6 +99,30 @@ width: 100px;
   }
  }
 
+#message {
+  overflow: visible;
+  background-color: rgb(22, 138, 192);
+}
+
+.modal {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 300px;
+  margin-top: 200px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#message label {
+  padding-top: 10px;
+}
+
+#message a {
+  color: #333333;
+}
+
+
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
 

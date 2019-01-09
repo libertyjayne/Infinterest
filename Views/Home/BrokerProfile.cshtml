@@ -6,7 +6,12 @@
   <!-- <link href="@Url.Content("~/css/profilestyle.css")" rel="stylesheet" type="text/css" /> -->
   <link href="@Url.Content("~/css/nav.css")" rel="stylesheet" type="text/css" />
   <link href="@Url.Content("~/css/brokerprofilestyle.css")" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 }
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
 <div class="grey">
   <header>
     <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
@@ -54,9 +59,18 @@
         </button>
         </div>
         <div class="item">
-        <button type="button item" class="btn btn-outline-primary">
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Message
-        </button>
+          <a href="#message" rel="modal:open"><button type="button item" class="btn btn-outline-primary">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Message
+          </button></a>
+        </div>
+        <div id="message" class="modal">
+          <div class="form-group">
+            <label for="To">To</label>
+            <input type="email" class="form-control" id="Email" placeholder="Enter email">
+            <label for="Message">Message</label>
+            <textarea class="form-control" id="Message" placeholder="Enter message" rows="5"></textarea>
+          </div>  
+          <button><a href="#" rel="modal:close">Send</a></button>
         </div>
     </div>
     <div class="shadow-box youTube">
