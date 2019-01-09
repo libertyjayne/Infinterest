@@ -9,118 +9,120 @@
     
 }
 
-<div id="container"> 
 <header>
   <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
   <input type="checkbox" id="nav-toggle" class="nav-toggle">
   <nav>
       <ul>
-      <li><a href="/dashboard">Home</a></li>
-      <li><a href="http://infinterest.com/#home">About</a></li>
-      <li><a href="/messaging">Messaging</a></li>
-      <li><a href="/logoff">Sign out</a></li>
+        <li><a href="/dashboard">Home</a></li>
+        <li><a href="http://infinterest.com/#home">About</a></li>
+        <li><a class="" href="vendor-registration">Vendor Sign Up</a></li>
+        <li><a class="" href="broker-registration">Broker Sign Up</a></li>
+        <li><a class="login">Log In</a></li>
       </ul>
   </nav>
   <label for="nav-toggle" class="nav-toggle-label">
       <span></span>
   </label>
 </header>
-    <form class="regbox" role="form" action="/dashboard" method="get">
-    <h4>Broker Registration</h4>
-        <div class="row">
-            <!-- Fields common to all users -->
-            <div class="col-sm">
-                <div class="form-group">
-                    <label for="FirstName">First name</label>
-                    <input type="text" class="form-control" id="FirstName" placeholder="Enter first name">
-                </div>
-                <div class="form-group">
-                    <label for="LastName">Last name</label>
-                    <input type="text" class="form-control" id="LastName" placeholder="Enter last name">
-                </div>
-                <div class="form-group">
-                    <label for="Email">Email</label>
-                    <input type="email" class="form-control" id="Email" placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label for="Password">Password</label>
-                    <input type="password" class="form-control" id="Password" placeholder="Enter password">
-                </div>
-                <div class="form-group">
-                    <label for="PasswordConfirm">Confirm password</label>
-                    <input type="password" class="form-control" id="PasswordConfirm" placeholder="Confirm password">
-                </div>
-                <!-- Fields common to vendor and broker -->
-                <div class="form-group">
-                    <label for="Contact">Contact name if different</label>
-                    <input type="text" class="form-control" id="Contact" placeholder="Contact name">
-                </div>
-                <div class="form-group">
-                    <label for="Website">Your eebsite</label>
-                    <input type="text" class="form-control" id="Website" placeholder="Enter website">
-                </div>
-                <div class="form-group">
-                    <label for="Number">Phone number</label>
-                    <input type="text" class="form-control" id="Number" placeholder="Enter phone number">
-                </div>
-            </div>
-            <div class="col-sm">   
-                <div class="form-group">
-                    <label for="Bio">Your bio</label>
-                    <textarea class="form-control" id="Bio" placeholder="Enter bio" rows="3"></textarea>
-                </div>
-                <div class="form-group">
-                        <label for="Logo">Logo</label>
-                <input type="file" class="form-control-file form-text text-muted" id="Logo">
-                </div>
-                <div class="form-group">
-                        <label for="ProfilePic">Profile Picture</label>
-                <input type="file" class="form-control-file form-text text-muted" id="ProfilePic">
-                </div>
-                <!-- Fields unique to vendor -->
-                <div class="form-group">
-                    <label for="Company">Company</label>
-                    <input type="text" id="Company" class="form-control" placeholder="Enter company name">
-                </div>    
-                <div class="form-group">
-                    <label for="AreaOfHouse">Area of home you request</label>
-                    <input type="text" id="AreaOfHouse" class="form-control" placeholder="Enter area of home">
-                </div>
-                <div class="form-group">
-                    <label for="">Business Category</label>
-                    <div class="checkbox">
-                        <input type="checkbox" id="Landscaping" name="BusinessCategory" value="Landscaping">
-                        <label for="Landscaping">Landscaping</label>
+<div id="container"> 
+    <div class="regbox">
+        <form class="" role="form" action="/dashboard" method="get">
+        <h4>Broker Registration</h4>
+            <div class="wrapper">
+                <div class="box1">
+                    <div class="form-group">
+                        <label for="FirstName">First name</label>
+                        <input type="text" class="form-control" id="FirstName" placeholder="Enter first name">
                     </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="Photography" name="BusinessCategory" value="Photography">
-                        <label for="Photography">Photography</label>
+                    <div class="form-group">
+                        <label for="LastName">Last name</label>
+                        <input type="text" class="form-control" id="LastName" placeholder="Enter last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Enter password">
+                    </div>
+                    <div class="form-group">
+                        <label for="PasswordConfirm">Confirm password</label>
+                        <input type="password" class="form-control" id="PasswordConfirm" placeholder="Confirm password">
+                    </div>
+                    <!-- Fields common to vendor and broker -->
+                    <div class="form-group">
+                        <label for="Contact">Contact name if different</label>
+                        <input type="text" class="form-control" id="Contact" placeholder="Contact name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Website">Your eebsite</label>
+                        <input type="text" class="form-control" id="Website" placeholder="Enter website">
+                    </div>
+                    <div class="form-group">
+                        <label for="Number">Phone number</label>
+                        <input type="text" class="form-control" id="Number" placeholder="Enter phone number">
+                    </div>
+                </div>
+                <div class="col-sm">   
+                    <div class="form-group">
+                        <label for="Bio">Your bio</label>
+                        <textarea class="form-control" id="Bio" placeholder="Enter bio" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                            <label for="Logo">Logo</label>
+                    <input type="file" class="form-control-file form-text text-muted" id="Logo">
+                    </div>
+                    <div class="form-group">
+                            <label for="ProfilePic">Profile Picture</label>
+                    <input type="file" class="form-control-file form-text text-muted" id="ProfilePic">
+                    </div>
+                    <!-- Fields unique to vendor -->
+                    <div class="form-group">
+                        <label for="Company">Company</label>
+                        <input type="text" id="Company" class="form-control" placeholder="Enter company name">
                     </div>    
-                    <div class="checkbox">
-                        <input type="checkbox" id="MusiciansDJs" name="BusinessCategory" value="MusiciansDJs">
-                        <label for="MusiciansDJs">Musicians / DJs</label>
-                    <div class="checkbox"> 
-                        <input type="checkbox" id="InteriorDecorators" name="BusinessCategory" value="InteriorDecorators">
-                        <label for="InteriorDecorators">Interior Decorators</label>
+                    <div class="form-group">
+                        <label for="AreaOfHouse">Area of home you request</label>
+                        <input type="text" id="AreaOfHouse" class="form-control" placeholder="Enter area of home">
                     </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="FoodCatering" name="BusinessCategory" value="FoodCatering">
-                        <label for="FoodCatering">Food / Catering</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="Home-based" name="BusinessCategory" value="Home-based">
-                        <label for="Home-based">Home-based Businesses (Candles, Soaps, Etc.)</label>
-                    </div>
-                    <div class="checkbox">
-                        <input type="checkbox" id="Other" name="BusinessCategory" value="other">
-                        <label for="Other">Other</label>
-                        <input class="form-control" type="text" id="otherValue" name="other" placeholder="Enter business category">
+                    <div class="form-group">
+                        <label for="">Business Category</label>
+                        <div class="checkbox">
+                            <input type="checkbox" id="Landscaping" name="BusinessCategory" value="Landscaping">
+                            <label for="Landscaping">Landscaping</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="Photography" name="BusinessCategory" value="Photography">
+                            <label for="Photography">Photography</label>
+                        </div>    
+                        <div class="checkbox">
+                            <input type="checkbox" id="MusiciansDJs" name="BusinessCategory" value="MusiciansDJs">
+                            <label for="MusiciansDJs">Musicians / DJs</label>
+                        <div class="checkbox"> 
+                            <input type="checkbox" id="InteriorDecorators" name="BusinessCategory" value="InteriorDecorators">
+                            <label for="InteriorDecorators">Interior Decorators</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="FoodCatering" name="BusinessCategory" value="FoodCatering">
+                            <label for="FoodCatering">Food / Catering</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="Home-based" name="BusinessCategory" value="Home-based">
+                            <label for="Home-based">Home-based Businesses (Candles, Soaps, Etc.)</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="Other" name="BusinessCategory" value="other">
+                            <label for="Other">Other</label>
+                            <input class="form-control" type="text" id="otherValue" name="other" placeholder="Enter business category">
+                        </div>
                     </div>
                 </div>
-            </div>
-        <button type="submit" class="btn btn-primary">Save and continue</button>
-        </div>    
-    </form>
+            <button type="submit" class="btn btn-primary">Save and continue</button>
+            </div>    
+        </form>
+    </div>
     <div class="loginbox">
         <form onsubmit="gotodashboard()">
             <i class="fas fa-times-circle"></i>

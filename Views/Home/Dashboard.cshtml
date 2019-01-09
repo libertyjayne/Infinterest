@@ -53,7 +53,57 @@
                         <input type="date" class="form-control daterange">
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Search</button>
+                <!-- Button trigger modal -->
+                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModalLong">Search</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Your search results</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-result">
+                                    <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" >
+                                    <div>
+                                        <h4>42352 43rd Ave SE</h4>
+                                        <h4>Belletown, WA 90528</h4>
+                                        <h6>June 2, 2019</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
+                                        <a href="/event-detail"><h5>Details</h5></a>
+                                    </div>
+                                </div>
+                                <div class="modal-result">
+                                    <img src="../images/home2.jpg" alt="kitchenpic" class="respic">
+                                    <div>
+                                        <h4>44 Main St</h4>
+                                        <h4>Town Center, WA 90543</h4>
+                                        <h6>July 16, 2019</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
+                                        <a href="/event-detail"><h5>Details</h5></a>
+                                    </div>
+                                </div>
+                                <div class="modal-result">
+                                    <img src="../images/home3.jpg" alt="kitchenpic" class="respic">
+                                    <div>
+                                        <h4>1234 Address Way</h4>
+                                        <h4>Cityville, WA 90528</h4>
+                                        <h6>August 28, 2019</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac est odio. Fusce lacus diam, elementum eget elit in, ultrices consectetur sapien. Aenean tincidunt hendrerit tempus.</p>
+                                        <a href="/event-detail"><h5>Details</h5></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </form>
         </div>
         <div class="pref">
@@ -62,6 +112,7 @@
                 <a href="/vendor-profile"><img src="../images/jimmyjohns.jpg" alt="" class="preferred"></a>
                 <a href="/vendor-profile"><img src="../images/fanta.jpg" alt="" class="preferred"></a>
                 <a href="/vendor-profile"><img src="../images/subway.jpg" alt="" class="preferred"></a>
+                <a href="/vendor-profile"><img src="../images/cupcake.png" alt="" class="preferred"></a>
 
             </div>
             <label for="price" class="price">Preferred Brokers</label>

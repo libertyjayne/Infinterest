@@ -11,6 +11,7 @@ body, html, #dashboardcontainer{
     padding-top: 1%;
     float: left;
     vertical-align: top;
+    padding-top: 50px;
     /*overflow-y: scroll;*/
 }
 
@@ -19,7 +20,8 @@ body, html, #dashboardcontainer{
     height: 87%;
     display: inline-block;
     /* outline: 2px dotted red; */
-    padding: 1% 1%;
+    /* padding: 1% 1%; */ 
+    padding-top: 50px;
     margin-top: 1%;
     vertical-align: top;
     /* border: 3px inset lightgray; */
@@ -74,7 +76,8 @@ body, html, #dashboardcontainer{
     /* outline: 2px dotted red; */
     display: inline-block;
     float: right;
-    padding-top: 1%;
+    /* padding-top: 1%; */
+    padding-top: 50px;
     vertical-align: top;
 }
 
@@ -348,6 +351,20 @@ ul {
   color: white !important
 }
 
+.modal-body {
+    text-align: center;
+}
+
+.modal-result {
+    align-content: center;
+    text-align: center;
+}
+
+.modal-body img {
+    width: 100%;
+    display: block;
+}
+
 /* Phone devices */
 @media screen and (max-width : 768px) {
     .share {
@@ -421,11 +438,6 @@ ul {
     
 }
 
-/* Medium devices: 
-fix navbar because it broke
-fix form.dashsearch, form groups, and the search button, div.prefpics & its img in left section
-maybe move the left section to the top, search and prefpics becomes inline-blocks?
- */
 @media screen and (max-width : 991px) and (min-width: 769px) {
     .share {
         padding-top: 30px;

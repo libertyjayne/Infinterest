@@ -184,32 +184,40 @@ maybe move the left section to the top, search and prefpics becomes inline-block
     }  
 }
 
-#event-details{
-    margin-top: 15px;
-    height: 100%;
-}
-
-.respic{
-    margin: 3%;
-}
-
-.resinfo{
-    display: inline-block;
-    width: 50%;
-    text-align: center;
-}
-
-#event-details h6{
-    font-size: 20px;
-}
-
 .ultimatecontainer{
     background-image: url("../images/open-house.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 35px;
 }
+
+#event-details{
+    margin-top: 15px;
+    height: 100%;
+    padding: 20px;
+}
+
+.respic{
+    /* margin: 3%; */
+    height: auto;
+    width: 100%;
+}
+
+.resinfo.col-sm {
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#event-details h6{
+    font-size: 20px;
+}
+/* 
+#event-details.shadow-box.mb-4 {
+    padding: 10px;
+} */
 
 #event-details h4 {
     color: black;
@@ -219,43 +227,58 @@ maybe move the left section to the top, search and prefpics becomes inline-block
     text-align: center;
 }
 
-#vendors-social {
+.col-sm {
+    /* padding: 10px; */
     text-align: center;
 }
-.vendors-social col-sm-8 {
+
+.vendors-social.col-sm {
     display: inline-block;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     height: auto; 
+    text-align: center;
 }
 
 .vendors-social h5 {
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 50px;
+    font-size: 14pt;
 }
 
 .vendors {
-    margin: 10px 10px auto;
-    height: 80px;
+    margin: 20px 20px auto;
+    height: 100px;
     width: auto;
+}
+
+.preferred {
+    width: 80%;
+    height: auto;
 }
 
 .social {
-    margin: 10px 10px auto;
-    height: 40px;
+    margin: 10px 20px auto;
+    height: 50px;
     width: auto;
 }
 
+#share-ig, #share-fb, #share-tweet, #share-email {
+    overflow: visible;
+}
 .modal {
     display: block;
     margin: 0 auto;
     width: 350px;
-    height: 150px;
-    background-color: fuchsia;
+    height: 125px;
+    background-color: lightskyblue;
     margin-top: 300px;
     font-size: 14pt;
     font-weight: bold;
 }
+
+
 
 
 
