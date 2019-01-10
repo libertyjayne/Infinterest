@@ -70,19 +70,14 @@ a:hover{
 .box2 {
     flex: 1;
 }
-
 .regbox {
-    
     background-color: rgb(32, 32, 32);
-    /* width: 35%;
-    height: 55%; */
     border-radius: 5px;
     box-shadow: 2px 2px;
     margin: 3% 10%;
     padding: 0% 3%;
     display: inline-block; 
 }
-
 .regbox h4 {
     color: whitesmoke;
     font-weight: bold;
