@@ -193,14 +193,11 @@ body, html, #dashboardcontainer{
 }
 
 .share{
-    /* border: 1px outset #35BFFF; */
-    /* background: #F5F5F5; */
     background: white;
     border-radius: 5px;
     padding: 2%;
     height: 50%;
     margin-bottom: 2%;
-    /* box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2); */
 }
 
 #middlesection h3{

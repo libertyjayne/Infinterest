@@ -144,43 +144,6 @@ body{
     color: #202020;
 }
 
-/* #homecontainer .fa-times-circle{
-    color: white;
-    display: inline-block;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 3%;
-}
-
-#homecontainer .loginbox{
-    background-color: rgba(32, 32, 32, 0.8);
-    width: 25%;
-    height: 30%;
-    border-radius: 5px;
-    box-shadow: 2px 2px;
-    padding: 0% 0%;
-    margin-bottom: -5%;
-    position: fixed;
-    left: 100%;
-    top: 10%;
-}
-
-#homecontainer .logformcon{
-    height: 30px;
-    font-size: 14px;
-}
-
-#homecontainer .logformgroup{
-    margin: 2% 5%;
-    width: 89%;
-}
-
-#homecontainer .logbutton{
-    font-size: 14px;
-    display: inline-block;
-    margin-left: 62%;
-} */
-
 #homecontainer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #202020;
   opacity: 1; /* Firefox */
@@ -201,4 +164,17 @@ body{
     color: whitesmoke;
     font-weight: bold;
     font-size: 20px;
+}
+/* Search modal */
+.modal-body img {
+    width: 100%;
+    display: block;
+}
+.modal-body {
+    text-align: center;
+}
+
+.modal-result {
+    align-content: center;
+    text-align: center;
 }
