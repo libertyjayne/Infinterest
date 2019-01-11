@@ -16,7 +16,7 @@
         <li><a href="http://infinterest.com/#home">About</a></li>
         <li><a class="" href="vendor-registration">Vendor Sign Up</a></li>
         <li><a class="" href="broker-registration">Broker Sign Up</a></li>
-        <li><a class="login text-white" href="#">Log In</a></li>
+        <li><a class="login text-white" href="#loginModal" data-toggle="modal">Log In</a></li>
       </ul>
   </nav>
   <label for="nav-toggle" class="nav-toggle-label">
@@ -47,9 +47,7 @@
                 <a href="/search" class="btn btn-primary" type="submit">Search</a>
             </form>
         </div>
-
-        
-        <div class="loginbox">
+        <!-- <div class="loginbox">
             <form onsubmit="gotodashboard()">
                 <i class="fas fa-times-circle"></i>
                 <div class="form-group logformgroup">
@@ -60,8 +58,42 @@
                 </div>
                 <a class="btn btn-primary logbutton" href="dashboard">Log in</a>
             </form>
-        </div>
+        </div> -->
     </div>
 </div>
+<div id="loginModal" class="modal fade" role="form">
+    <div class="modal-dialog">
+        <!-- Login Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form role="form" action="/dashboard" method="get">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="usrname">Username</label>
+                        <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="psw">Password</label>
+                        <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                    </div>
+                        <div class="checkbox">
+                        <label><input type="checkbox" value="" checked>Remember me</label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+</div>
+
+
 
     

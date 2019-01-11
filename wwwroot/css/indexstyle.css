@@ -114,19 +114,6 @@ body{
     display: inline-block;
 }
 
-#homecontainer .btn-primary{
-    margin-left: 40%;
-    margin-top: 3%;
-    background-color: #35BFFF;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-#homecontainer .btn-primary:hover{
-    background-color: rgb(22, 138, 192);
-}
-
 #homecontainer .when{
     display: block;
 }
@@ -157,7 +144,7 @@ body{
     color: #202020;
 }
 
-#homecontainer .fa-times-circle{
+/* #homecontainer .fa-times-circle{
     color: white;
     display: inline-block;
     margin-left: 5px;
@@ -192,7 +179,7 @@ body{
     font-size: 14px;
     display: inline-block;
     margin-left: 62%;
-}
+} */
 
 #homecontainer ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #202020;
@@ -205,4 +192,13 @@ body{
 
 #homecontainer ::-ms-input-placeholder { /* Microsoft Edge */
   color: #202020;
+}
+
+.searchbox .btn-primary{
+    margin-left: 40%;
+    margin-top: 3%;
+    background-color: #35BFFF;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
 }

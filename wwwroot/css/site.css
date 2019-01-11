@@ -115,8 +115,12 @@
 }
 .btn-primary{
     background-color: #35BFFF !important;
-    color: whitesmoke !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
-    margin: 0 auto 10px auto;
+}
+
+.btn-primary:hover{
+    background-color: #35BFFF !important;
+    color: #1D1F23;
+}
+.btn-sendary:hover{
+    color: darkgrey;
 }
