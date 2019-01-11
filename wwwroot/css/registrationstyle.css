@@ -17,7 +17,7 @@ body{
     padding: 50px 0px 0px 0px;
 }
 
-.regbox label{
+.wrapper label{
     color: whitesmoke;
     font-size: 20px;
 }
@@ -41,7 +41,7 @@ body{
     color: #202020;
 }
 
-.regbox .checkbox input {
+.wrapper .checkbox input {
     margin-left: 0!important;
 }
 
