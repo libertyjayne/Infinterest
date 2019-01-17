@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 }
 
 @section css {
@@ -9,19 +10,19 @@
 }
 
 <header>
-  <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
-  <nav>
-      <ul>
-        <li><a href="http://infinterest.com/#home">About</a></li>
-        <li><a class="" href="vendor-registration">Vendor Sign Up</a></li>
-        <li><a class="" href="broker-registration">Broker Sign Up</a></li>
-        <li><a class="login text-white" href="#loginModal" data-toggle="modal">Log In</a></li>
-      </ul>
-  </nav>
-  <label for="nav-toggle" class="nav-toggle-label">
-      <span></span>
-  </label>
+    <img src="../images/white-nosub-inflogo.png" alt="logo" class="white-logo">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+            <li><a href="http://infinterest.com/#home">About</a></li>
+            <li><a class="" href="vendor-registration">Vendor Sign Up</a></li>
+            <li><a class="" href="broker-registration">Broker Sign Up</a></li>
+            <li><a class="login text-white" href="#loginModal" data-toggle="modal">Log In</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
 </header>
 <div id="homecontainer">
     <div class="container wrapper">
@@ -29,8 +30,8 @@
             <h4>Search Upcoming Open House Events</h4>
             <form>
                 <div class="form-group whereinput">
-                  <label for="zipcode">Where</label>
-                  <input type="text" class="form-control"placeholder="Zip Code">
+                    <label for="zipcode">Where</label>
+                    <input type="text" class="form-control" placeholder="Zip Code">
                 </div>
                 <div class="form-group">
                     <label for="zipcode" class="when">When</label>
@@ -53,12 +54,12 @@
                             <div class="modal-header">
                                 <h5 class="modal-title" id="exampleModalLongTitle">Your search results</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
+                                    <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
                                 <div class="modal-result">
-                                    <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic" >
+                                    <img src="../images/kitchen-1799712_960_720.jpg" alt="kitchenpic">
                                     <div>
                                         <h3>42352 43rd Ave SE</h3>
                                         <h3>Belletown, WA 90528</h3>
@@ -118,7 +119,7 @@
                         <label for="psw">Password</label>
                         <input type="text" class="form-control" id="psw" placeholder="Enter password">
                     </div>
-                        <div class="checkbox">
+                    <div class="checkbox">
                         <label><input type="checkbox" value="" checked>Remember me</label>
                     </div>
                 </div>
@@ -127,10 +128,9 @@
                     <button type="submit" class="btn btn-primary">Login</button>
                 </div>
             </form>
-        </div> 
+        </div>
     </div>
 </div>
 
 
 
-    
