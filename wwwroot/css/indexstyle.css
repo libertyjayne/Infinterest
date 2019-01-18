@@ -138,7 +138,7 @@ body{
 
 #homecontainer .form-control{
     height: 50px;
-    font-size: 16px;
+    font-size: 15px;
     padding: 12px 18px;
     color: #202020;
 }
@@ -176,6 +176,21 @@ body{
 .modal-result {
     align-content: center;
     text-align: center;
+}
+
+@media (max-width : 479px) {
+    #homecontainer .daterange {
+        width: 100%;
+    }
+    #homecontainer .whereinput {
+        width: 100%;
+    }
+}
+
+@media (min-width : 480px) and (max-width : 767px) {
+    #homecontainer .form-control {
+        font-size: 14px;
+    }
 }
 
 @media (max-width : 768px) {
